@@ -1,8 +1,13 @@
 ---
-title: "03_exercise_scott"
+title: 'Weekly Exercises #3'
 author: "Scott Yeheng Zong"
-date: "6/10/2021"
-output: html_document
+output: 
+  html_document:
+    keep_md: TRUE
+    toc: TRUE
+    toc_float: TRUE
+    df_print: paged
+    code_download: true
 ---
 
 ```{r setup, include=FALSE}
