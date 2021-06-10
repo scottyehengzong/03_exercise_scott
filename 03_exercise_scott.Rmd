@@ -258,6 +258,7 @@ Trips %>%
   facet_wrap(~client)+
   labs(title = "Density Plot of Rented Bikes versus Time of Day",x = "time of day", y = NULL)
 ```
+
 $\mathrm{Answer:}$ This graph tells us the rental distribution for casual and registered client on weekdays and weekends. It tells us that for causal clients, there are only slight difference between the rental distribution on weekdays and the rental distribution on weekends. Both of them is slightly skewed to left and the peek of rental is at around 2pm. However, for registered clients, there are obvious differences between the rental distribution on weekdays and the one on weekends. On weekdays, the distribution is roughly symmetric and bi-modal. The first rental peek is at around 8am and the second rental peek is at around 6pm. On weekend, the distribution slightly skews to left and the rental peek is at around 2pm. I can not tell which graph is better because they have their own advantage(even if the information contained in the graph are the same). For example, if we would like to know the difference between distribution on weekdays and weekends for each type of client, second graph is a better choice; if we would like to know the difference between distributions of casual and registered client for both weekend and weekdays, the first graph is better.
 
 ### Spatial patterns
@@ -294,6 +295,7 @@ Trips_casual %>%
   labs(title = "Total Number of Departure in Different Stations for Casual Users ", x = "latitude", y = "longitude")+
   geom_point()
 ```
+
 $\mathrm{Answer:}$ It seems that station away from the central area has a much higher percentage of departures by casual users since the most of points with color light blue is at the edge of the plot.
   
 ### Spatiotemporal patterns
